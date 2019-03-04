@@ -1,0 +1,410 @@
+/* Reset default css
+=============================*/
+html, body, header, nav, article, time, footer, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h6, p, pre, blockquote, table, th, td {
+    margin: 0px;
+    padding: 0px;
+    font-family:"游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    box-sizing: border-box;
+    scrollbar-color: #61a60e;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+/* Layout for pc*/
+/*========================*/
+
+/* Header*/
+/*========================*/
+.wrap{
+    margin-top: 70px;
+    width: 100%;
+    text-align: center;
+}
+.topArea{
+    width: 100%;
+    position: relative;
+}
+.topImgArea{
+    margin: 0 50px;
+}
+.topImg{
+    width: 100%;
+    height: auto;
+}
+.twitterButton{
+    position: absolute;
+    top: 0px;
+    right: 50px;
+}
+.twitterButton__img{}
+.CTA{
+    margin-top: 50px;
+}
+.CTA__img{
+    width: 50%;
+}
+/* campaign*/
+/*========================*/
+.campaign{
+    margin-top: 50px;
+    width: 100%;
+}
+.campaignPeriodArea{
+    margin-top: 40px;
+}
+.campaignPeriod__img{
+    width: 100%;
+}
+.campaignIntroArea{
+    margin: 0 50px;
+}
+.campaignIntro__img{
+    width: 100%;
+}
+
+.campaignChageArea{
+    margin: 50px 50px 0px;
+}
+.campaignChage__img{
+    width: 100%;
+}
+
+.footer_bottom{
+    background-color: #333333;
+}
+
+/* application*/
+/*========================*/
+.application{
+    margin-top: 70px;
+}
+.titleArea{
+    padding: 17px 0px;
+    background-color: #61a60e;
+}
+.heading{
+    font-size: 30px;
+    color: white;
+}
+
+.applySteps{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+.step{
+    flex: 1;
+}
+.step__img{
+    width: 100%;
+}
+.step1{
+    text-align: right;
+    position: relative;
+}
+.step__description1{
+    width: 58%;
+    text-align: left;
+    position: absolute;
+    top:80px;
+    left:145px;
+}
+
+.step2{
+    position: relative;
+}
+.step__description2{
+    width: 61%;
+    text-align: left;
+    position: absolute;
+    top:80px;
+    left:83px;
+}
+
+.step3{
+    text-align: left;
+    position: relative;
+}
+.step__description3{
+    width: 58%;
+    position: absolute;
+    top:80px;
+    left:25px;
+
+}
+.description__accent{
+    color: #1da1f2;
+}
+.supplement{
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.retweetArea{
+    margin-top: 10px;
+}
+.retweet__img{
+    width: 80%;
+}
+
+.abstract{
+    margin-top: -75px;
+    position: relative;
+    z-index: 2;
+}
+
+.detailArea{
+    margin-top: 70px;
+    text-align: left;
+}
+.detail__ul{
+    width: 80%;
+    margin: auto;
+}
+.detail__li{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.detail__accent{
+    font-weight: 500;
+}
+
+.titleArea--width{
+    width: 80%;
+    padding: 17px 0px 0px;
+    margin: 70px auto 0px;
+    background-color: #61a60e;
+    border: solid 5px #61a60e;
+}
+.heading--width{
+    font-size: 30px;
+    color: white;
+}
+
+.apply__description{
+    height: 365px;
+    padding: 15px 20px 30px;
+    background: white;
+    overflow: visible scroll;
+    line-height: 28px;
+    font-size: 18px;
+}
+.footer{
+    margin-top: 70px;
+    padding: 28px 0px;
+    color: white;
+    height: 80px;
+    background: #333333;
+    vertical-align: middle;
+}
+
+.pc{
+    display: block;
+}
+.sp{
+    display: none;
+}
+
+.step__title{
+    width: 100%;
+    height: 60px;
+}
+.step__description{
+    width: 100%;
+    height: 177px;
+    padding: 20px 15px 15px 15px;
+    text-align: left;
+    border-style: solid;
+    border-width: 0 5px 5px 5px;
+    border-color: #61a60e;
+}
+.step{
+    margin: auto;
+    width: 80%;
+}
+.step__left{
+    color: #61a60e;
+    border: solid 5px #61a60e;
+    width: 40%;
+    height: 100%;
+    font-size: 26px;
+    line-height: 50px;
+    text-align: left;
+    padding-left: 10px;
+    float: left;
+}
+.step__right{
+    display: inline-block;
+    text-align: left;
+    width: 60%;
+    height: 100%;
+    color: white;
+    background: #61a60e;
+    font-size: 20px;
+    line-height: 60px;
+    position: relative;
+}
+.leftmargin{
+    margin-left: auto;
+    margin-right: 0px;
+}
+.rigthmargin{
+    margin-left: 0px;
+    margin-right: auto;
+}
+.step__font{
+    font-size: 26px;
+}
+.step__right::before{
+    content: '';
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: -80px;
+    border-style: solid;
+    border-color: transparent #61a60e #61a60e transparent;
+    border-width: 60px 20px 0 55px;
+}
+.step__right::after{
+    content: '';
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    right: -20px;
+    border-style: solid;
+    border-color: transparent transparent transparent #61a60e;
+    border-width: 30px 0 30px 20px;
+}
+
+.steps{
+    margin-top: 50px;
+    display: flex;
+}
+.set{
+    flex: 1;
+}
+
+/* Layout for sp*/
+/*========================*/
+@media screen and (max-width: 480px){
+    .pc{
+        display: none;
+    }
+    .sp{
+        display: block;
+    }
+    .wrap{
+        margin-top: 70px;
+        width: 100%;
+        text-align: center;
+    }
+    .topImgArea{
+        margin: 0 12.5px;
+    }
+    .CTA{
+        margin-top: 35px;
+    }
+    .CTA__img{
+        width: 85%;
+    }
+    .twitterButton{
+        position: initial;
+        margin-top: 20px;
+    }
+    .campaign{
+    }
+
+    .campaignIntroArea{
+        margin: 40px 25px 0;
+    }
+    .campaignChageArea{
+        margin: 0 25px;
+    }
+    .titleArea{
+        margin: 0px;
+    }
+    .applySteps{
+        margin: 0px 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .step{
+        margin: 0 auto;
+    }
+    .step1{
+        text-align: left;
+    }
+    .step2{
+        text-align: left;
+    }
+    .step3{
+        text-align: left;
+    }
+    .step__description1{
+        width: 90%;
+        text-align: left;
+        position: absolute;
+        top: 45px;
+        left: 20px;
+        font-size: 12px;
+    }
+    .step__description2{
+        width: 90%;
+        text-align: left;
+        position: absolute;
+        top: 45px;
+        left: 20px;
+        font-size: 12px;
+    }
+    .step__description3{
+        width: 90%;
+        text-align: left;
+        position: absolute;
+        top: 45px;
+        left: 20px;
+        font-size: 12px;
+    }
+    .supplement{
+        font-size: 10px;
+    }
+    .retweet__img{
+        width: 90%;
+    }
+    .abstract{
+        margin-top: -25px;
+    }
+    .steps{
+        flex-direction: column;
+    }
+    .arrow{
+        margin-top: 45.5px;
+        margin-bottom: 45.5px;
+    }
+    .arrow::before{
+        content: '';
+        border-style: solid;
+        border-width: 35px 50px 0px 50px;
+        border-color: #61a60e transparent transparent transparent;
+        position: relative;
+        top: 21px;
+    }
+    .leftmargin, .rigthmargin{
+        margin: auto;
+    }
+    .step__left{
+        font-size: 20px;
+    }
+    .step__right{
+        font-size: 16px;
+    }
+    .step__right::after{
+        display: none;
+    }
+    .step__description{
+        font-size: 14px;
+    }
+}
